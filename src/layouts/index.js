@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import Menu from '../components/menu'
-import '../styles.scss'
+import '../gloabl.css'
 
 const Layout = ({ children, data }) => (
   <div>
