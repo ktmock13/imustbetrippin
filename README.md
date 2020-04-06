@@ -11,6 +11,10 @@ Install the dependencies:
 ```sh
 npm install
 ```
+Run the app locally / for development
+```sh
+gatsby develop
+```
 
 ## Deploy
 
