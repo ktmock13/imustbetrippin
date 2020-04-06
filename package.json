@@ -1,6 +1,5 @@
 {
   "name": "adventure-heads",
-  "description": "Our adventure website",
   "version": "1.0.0",
   "author": "Keith Mock",
   "dependencies": {
