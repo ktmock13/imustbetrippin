@@ -1,9 +1,20 @@
 import React from 'react'
 import Link from 'gatsby-link'
-
-const renderphotos = photos => {
-  return photos.map(photo => ( <img src={photo} /> ));
-}
+import ImageGallery from 'react-image-gallery'
+const images = [
+  {
+    original: 'https://picsum.photos/id/1018/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1018/250/150/',
+  },
+  {
+    original: 'https://picsum.photos/id/1015/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1015/250/150/',
+  },
+  {
+    original: 'https://picsum.photos/id/1019/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1019/250/150/',
+  },
+]
 
 export default function Template({ data }) {
   const post = data.markdownRemark
@@ -15,11 +26,23 @@ export default function Template({ data }) {
       <h4>
         Posted by {post.frontmatter.author} on {post.frontmatter.datePosted}
       </h4>
+      <ImageGallery
+        items={post.frontmatter.photos.map(photo => ({
+          original: photo,
+          thumbnail: photo,
+        }))}
+      />
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      <div dangerouslySetInnerHTML={{ __html: `<iframe src="${post.frontmatter.map}" width="640" height="480"></iframe>` }} />
-      <div dangerouslySetInnerHTML={{ __html: `<iframe width="560" height="315" src="${post.frontmatter.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>` }} />
-      <h4>Photos:</h4>
-      { renderphotos(post.frontmatter.photos) }
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `<iframe src="${post.frontmatter.map}" width="640" height="480"></iframe>`,
+        }}
+      />
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `<iframe width="560" height="315" src="${post.frontmatter.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        }}
+      />
     </div>
   )
 }
