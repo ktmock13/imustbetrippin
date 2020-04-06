@@ -1,0 +1,2 @@
+webpackJsonp([49683490770531],{329:function(a,e){a.exports={data:{allMarkdownRemark:{edges:[{node:{id:"/Users/keithmock/Desktop/autoblog/gatsby_crash_course/src/pages/Death-Valley-March-2019/index.md absPath of file >>> MarkdownRemark",frontmatter:{path:"/Death-Valley-March-2019",title:"Death Valley March 2019",datePosted:"2020-04-04",author:"Keith  Mock"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---blog-0d95a4949597fdae7591.js.map
