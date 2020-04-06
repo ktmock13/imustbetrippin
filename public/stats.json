@@ -4,17 +4,21 @@
       "component---src-pages-index-js-fc5c5c6377b2a774253b.js",
       "component---src-pages-index-js-fc5c5c6377b2a774253b.js.map"
     ],
+    "path---santa-cruz-dirtroads-september-2019": [
+      "path---santa-cruz-dirtroads-september-2019-8575f3d76085639888a5.js",
+      "path---santa-cruz-dirtroads-september-2019-8575f3d76085639888a5.js.map"
+    ],
     "path---blog": [
-      "path---blog-0d95a4949597fdae7591.js",
-      "path---blog-0d95a4949597fdae7591.js.map"
+      "path---blog-0e8e23bc8a8991d28065.js",
+      "path---blog-0e8e23bc8a8991d28065.js.map"
     ],
     "path---": [
       "path----fa35807a0b71799c5e20.js",
       "path----fa35807a0b71799c5e20.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-364997c58b4e4d18e636.js",
-      "component---src-templates-blog-post-js-364997c58b4e4d18e636.js.map"
+      "component---src-templates-blog-post-js-4a49d239b2c8eeca1006.js",
+      "component---src-templates-blog-post-js-4a49d239b2c8eeca1006.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-809483e4012619a875a7.js",
@@ -48,14 +52,10 @@
       "component---src-pages-blog-js-4f8e665e248011de2f56.js",
       "component---src-pages-blog-js-4f8e665e248011de2f56.js.map"
     ],
-    "path---death-valley-march-2019": [
-      "path---death-valley-march-2019-6c4f4226fac98199c68d.js",
-      "path---death-valley-march-2019-6c4f4226fac98199c68d.js.map"
-    ],
     "app": [
-      "app-c9578a4a4e0ca7365428.js",
+      "app-543e4723169ad12141ca.js",
       "build-js-styles.css",
-      "app-c9578a4a4e0ca7365428.js.map",
+      "app-543e4723169ad12141ca.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
