@@ -1,6 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+
+const renderphotos = photos => {
+  return photos.map(photo => ( <img src={photo} /> ));
+  
+}
+
 export default function Template({ data }) {
   const post = data.markdownRemark
 
@@ -10,9 +16,12 @@ export default function Template({ data }) {
       <hr />
       <h1>{post.frontmatter.title}</h1>
       <h4>
-        Posted by {post.frontmatter.author} on {post.frontmatter.date}
+        Posted by {post.frontmatter.author} on {post.frontmatter.datePosted}
       </h4>
+      { renderphotos(post.frontmatter.photos) }
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div dangerouslySetInnerHTML={{ __html: `<iframe src="${post.frontmatter.map}" width="640" height="480"></iframe>` }} />
+      <div dangerouslySetInnerHTML={{ __html: `<iframe width="560" height="315" src="${post.frontmatter.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>` }} />
     </div>
   )
 }
@@ -25,7 +34,10 @@ export const postQuery = graphql`
         path
         title
         author
-        date
+        datePosted
+        video
+        map
+        photos
       }
     }
   }

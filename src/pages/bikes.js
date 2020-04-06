@@ -1,8 +1,8 @@
 import React from 'react'
 
-const AboutPage = () => (
+const BikesPage = () => (
   <div>
-    <h1>About Us</h1>
+    <h1>Our Bikes</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
       adipisci, voluptatum, nisi velit praesentium error quia explicabo voluptas
@@ -13,4 +13,4 @@ const AboutPage = () => (
   </div>
 )
 
-export default AboutPage
+export default BikesPage
