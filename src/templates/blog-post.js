@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-
 const renderphotos = photos => {
   return photos.map(photo => ( <img src={photo} /> ));
 }
