@@ -1,7 +1,8 @@
 import React from 'react'
+import Layout from '../components/layout'
 
 const BikesPage = () => (
-  <div>
+  <Layout>
     <h1>Our Bikes</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -10,7 +11,7 @@ const BikesPage = () => (
       provident ex, perferendis esse, voluptate atque alias officiis dolor
       eligendi itaque qui?
     </p>
-  </div>
+  </Layout>
 )
 
 export default BikesPage

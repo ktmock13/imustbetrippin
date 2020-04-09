@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import ImageGallery from 'react-image-gallery'
+import Layout from '../components/layout'
 
 export default function Template({ data }) {
   const post = data.markdownRemark
   return (
-    <div>
+    <Layout>
       <Link to="/blog">Go Back</Link>
       <hr />
       <h1>{post.frontmatter.title}</h1>
@@ -33,7 +34,7 @@ export default function Template({ data }) {
           __html: `<iframe width="560" height="315" src="${post.frontmatter.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         }}
       />
-    </div>
+    </Layout>
   )
 }
 
