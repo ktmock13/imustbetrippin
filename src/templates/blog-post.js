@@ -26,12 +26,16 @@ export default function Template({ data }) {
       <h4>
         Posted by {post.frontmatter.author} on {post.frontmatter.datePosted}
       </h4>
-      <ImageGallery
-        items={post.frontmatter.photos.map(photo => ({
-          original: photo,
-          thumbnail: photo,
-        }))}
-      />
+      <div className="image-gallery">
+        <ImageGallery
+          items={post.frontmatter.photos.map(photo => ({
+            original: photo,
+            thumbnail: photo,
+          }))}
+          showPlayButton={false}
+          showBullets={true}
+        />
+      </div>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <div
         dangerouslySetInnerHTML={{
