@@ -1,9 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-
-const renderphotos = photos => {
-  return photos.map(photo => ( <img src={photo} /> ));
-}
+import ImageGallery from 'react-image-gallery'
 
 export default function Template({ data }) {
   const post = data.markdownRemark
@@ -15,11 +12,27 @@ export default function Template({ data }) {
       <h4>
         Posted by {post.frontmatter.author} on {post.frontmatter.datePosted}
       </h4>
+      <div className="image-gallery">
+        <ImageGallery
+          items={post.frontmatter.photos.map(photo => ({
+            original: photo,
+            thumbnail: photo,
+          }))}
+          showPlayButton={false}
+          showBullets={true}
+        />
+      </div>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      <div dangerouslySetInnerHTML={{ __html: `<iframe src="${post.frontmatter.map}" width="640" height="480"></iframe>` }} />
-      <div dangerouslySetInnerHTML={{ __html: `<iframe width="560" height="315" src="${post.frontmatter.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>` }} />
-      <h4>Photos:</h4>
-      { renderphotos(post.frontmatter.photos) }
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `<iframe src="${post.frontmatter.map}" width="640" height="480"></iframe>`,
+        }}
+      />
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `<iframe width="560" height="315" src="${post.frontmatter.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        }}
+      />
     </div>
   )
 }
