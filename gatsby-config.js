@@ -6,6 +6,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     `gatsby-plugin-react-next`,
+    `gatsby-plugin-sass`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {

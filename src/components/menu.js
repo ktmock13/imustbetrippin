@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import '../styles/menu.css'
+import '../styles/menu.scss'
 const Menu = () => (
   <div className="menu-wrapper">
     <ul className="menu-item">
