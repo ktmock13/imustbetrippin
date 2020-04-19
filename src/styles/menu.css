@@ -1,10 +1,19 @@
 .menu-wrapper {
-        background: #f4f4f4;
+        background: none;
         padding-top: 10px;
+        margin: 0px auto;
+        padding-left: 60px;
+        padding-right: 60px;
 }
 
 .menu-item {
         list-style: none;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        font-family: "Trade Gothic LT Com Bold", sans-serif;
+}
+
+.adventure-logo{
+    width: 134px;
+    height: 134px;
 }

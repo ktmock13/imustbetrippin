@@ -33,7 +33,6 @@ const Layout = ({ children }) => (
             { name: 'keywords', content: 'gatsby, react, tutorial' },
           ]}
         />
-        <Header siteTitle={data.site.siteMetadata.title} />
         <Menu />
         <div
           style={{
