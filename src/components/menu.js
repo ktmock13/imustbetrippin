@@ -5,20 +5,20 @@ const Menu = () => (
   <div className="menu-wrapper">
     <ul className="menu-links">
       <li>
-        <Link to="/blog">BLOG</Link>
+        <Link to="/blog">Blog</Link>
       </li>
       <li>
-        <Link to="/bikes">BIKES</Link>
+        <Link to="/bikes">Bikes</Link>
       </li>
       <li>
-        <Link to="/bikes">HIKES</Link>
+        <Link to="/bikes">Hikes</Link>
       </li>
     </ul>
     <div className="home-link-image">
       <Link to="/">
         <img
           className="adventure-logo"
-          src={require('../images/adventure-heads-logo.jpg')}
+          src={require('../images/adventure-heads-logo.png')}
         />
       </Link>
     </div>
