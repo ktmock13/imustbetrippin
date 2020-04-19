@@ -1,13 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from 'gatsby'
 
 import Header from '../components/header'
 import Menu from '../components/menu'
-import './layout.css'
+import '../styles/layout.css'
 import '../styles/global.css'
-
 
 export const query = graphql`
   query SiteTitleQuery {
@@ -18,7 +17,6 @@ export const query = graphql`
     }
   }
 `
-
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -57,8 +55,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-
-
-
-
-
