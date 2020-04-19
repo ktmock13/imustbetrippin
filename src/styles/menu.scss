@@ -15,6 +15,15 @@
         font-family: "Trade Gothic LT Com Bold", sans-serif;
 }
 
+.menu-item li a {
+color: $yosemiteBlue ;
+}
+
+.menu-item li a:hover{
+border-bottom: 3px solid $yosemiteGray;
+transition: border-bottom .2s ease;
+}
+
 .adventure-logo{
     width: 134px;
     height: 134px;

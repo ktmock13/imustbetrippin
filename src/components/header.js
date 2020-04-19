@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import '../styles/header.css'
+import '../styles/header.scss'
 const Header = ({ siteTitle }) => (
   <div className="header">
     <div className="nav-bar">

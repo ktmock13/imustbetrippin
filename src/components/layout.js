@@ -5,8 +5,8 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from '../components/header'
 import Menu from '../components/menu'
-import '../styles/layout.css'
-import '../styles/global.css'
+import '../styles/layout.scss'
+import '../styles/global.scss'
 
 export const query = graphql`
   query SiteTitleQuery {
