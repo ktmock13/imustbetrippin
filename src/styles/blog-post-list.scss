@@ -1,0 +1,18 @@
+@import "color-constants.scss";
+
+.blog-post-list{
+background-color: $subPageBackground;
+margin: 0 60px;
+height: 80vh;
+margin-bottom: 20px;
+}
+
+.title{
+color: $yosemiteBlue
+}
+.author{
+  color: $yosemiteOrange
+}
+.read-more{
+    color: $yosemiteBlue
+}
