@@ -1,0 +1,16 @@
+@import "color-constants.scss";
+
+.blog-post-list{
+margin: 0px 60px;
+padding: 30px 0px;
+}
+
+.title{
+color: $yosemiteBlue
+}
+.author{
+  color: $yosemiteOrange
+}
+.read-more{
+    color: $yosemiteBlue
+}

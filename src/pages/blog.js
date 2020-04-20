@@ -1,24 +1,30 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Layout from "../components/layout"
+import Layout from '../components/layout'
+import SubpageLayout from '../components/subpage'
+import '../styles/blog-post-list.scss'
 
 const BlogPage = ({ data }) => (
   <Layout>
-    {data.allMarkdownRemark.edges.map(post => (
-      <div key={post.node.id}>
-        <h3>{post.node.frontmatter.title}</h3>
-        <small>
-          Posted by {post.node.frontmatter.author} on{' '}
-          {post.node.frontmatter.datePosted}
-        </small>
-        <br />
-        <br />
-        <Link to={post.node.frontmatter.path}>Read More</Link>
-        <br />
-        <br />
-        <hr />
-      </div>
-    ))}
+    <SubpageLayout>
+      {data.allMarkdownRemark.edges.map(post => (
+        <div className="blog-post-list" key={post.node.id}>
+          <h3 className="title">{post.node.frontmatter.title}</h3>
+          <small className="author">
+            Posted by {post.node.frontmatter.author} on{' '}
+            {post.node.frontmatter.datePosted}
+          </small>
+          <br />
+          <br />
+          <Link className="read-more" to={post.node.frontmatter.path}>
+            Read More
+          </Link>
+          <br />
+          <br />
+          <hr />
+        </div>
+      ))}
+    </SubpageLayout>
   </Layout>
 )
 

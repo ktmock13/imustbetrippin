@@ -1,13 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from 'gatsby'
 
-import Header from '../components/header'
 import Menu from '../components/menu'
-import './layout.css'
-import '../styles/global.css'
-
+import '../styles/layout.scss'
+import '../styles/global.scss'
 
 export const query = graphql`
   query SiteTitleQuery {
@@ -18,7 +16,6 @@ export const query = graphql`
     }
   }
 `
-
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -35,18 +32,8 @@ const Layout = ({ children }) => (
             { name: 'keywords', content: 'gatsby, react, tutorial' },
           ]}
         />
-        <Header siteTitle={data.site.siteMetadata.title} />
         <Menu />
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
-        >
-          {children}
-        </div>
+        <div>{children}</div>
       </div>
     )}
   />
@@ -57,8 +44,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-
-
-
-
-

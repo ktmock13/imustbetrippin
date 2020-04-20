@@ -1,0 +1,23 @@
+@import "color-constants.scss";
+
+html{
+    background: url("../images/ggbBridge.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.adventure-heads-title{
+color:   $textFillWhite;
+padding-left: 62vw;
+padding-top: 33vh;
+margin-right: 60px; 
+margin-bottom: 0px;
+font-size: 3.5vw;
+}
+.adventure-heads-subtitle{
+color:   $textFillWhite;
+padding-left: 62vw;
+margin-top: 8px;
+margin-right: 60px; 
+font-size: 1.5.0vh;
+}
+ 
