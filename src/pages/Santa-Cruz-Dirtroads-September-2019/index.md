@@ -1,7 +1,7 @@
 ---
-path: "/Santa-Cruz-Dirtroads-September-2020"
-datePosted: "2020-04-05"
-title: "Santa Cruz Dirtroads September 2020"
+path: "/Santa-Cruz-Dirtroads-September-2019"
+datePosted: "2019-09-05"
+title: "Santa Cruz Dirtroads September 2019"
 author: "Keith Mock"
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1bm_UBM4RmyDHCDUWa7ale2olWkCwJ0Ak'
 video: 'https://www.youtube.com/embed/AKD4sZW3DuE'
