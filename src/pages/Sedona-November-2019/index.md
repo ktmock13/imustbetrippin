@@ -1,8 +1,9 @@
 ---
 path: "/Sedona-November-2019"
 datePosted: "2019-11-15"
-title: "Sedona-November 2019"
+title: "Sedona, November 2019"
 author: "Keith Mock"
+tags: ["ADV", "Camping"]
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1bbIlubA83E8rFyiNlqIaOFTrzsvyOyl6'
 video: 'https://www.youtube.com/embed/QZHYCpgvlTs'
 photos:

@@ -4,6 +4,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators
 
   const postTemplate = path.resolve('src/templates/blog-post.js')
+  const tagTemplate = path.resolve('src/templates/tags.js')
 
   return graphql(`
     {
@@ -15,6 +16,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             frontmatter {
               path
               title
+              tags
               datePosted
               author
               video

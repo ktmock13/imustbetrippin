@@ -1,7 +1,8 @@
 ---
 path: "/Death-Valley-March-2019"
 datePosted: "2019-03-15"
-title: "Death Valley March 2019"
+title: "Death Valley, March 2019"
+tags: ["ADV", "Hiking", "Camping"]
 author: "Keith Mock"
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1fOhQoj4VM47rWPpXw1rTPbV-MbplnXj9'
 photos:

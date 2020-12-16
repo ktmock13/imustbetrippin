@@ -1,7 +1,8 @@
 ---
 path: "/New-Idria-Mine-February-2020"
 datePosted: "2020-02-15"
-title: "New Idria Mine February 2020"
+title: "New Idria Mine, February 2020"
+tags: ["ADV", "Motocamping"]
 author: "Keith Mock"
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1OgUWmVcvkwgca99tkyovtzEUVbAr37Xu'
 video: 'https://www.youtube.com/embed/8bthxXDms38'

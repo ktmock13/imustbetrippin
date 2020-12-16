@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import TagList from '../components/tag-list'
 import Layout from "../components/layout"
 
 const BlogPage = ({ data }) => (
@@ -7,6 +8,7 @@ const BlogPage = ({ data }) => (
     {data.allMarkdownRemark.edges.map(post => (
       <div key={post.node.id}>
         <h3>{post.node.frontmatter.title}</h3>
+        <TagList tags={post.node.frontmatter.tags} />
         <small>
           Posted by {post.node.frontmatter.author} on{' '}
           {post.node.frontmatter.datePosted}
@@ -24,13 +26,17 @@ const BlogPage = ({ data }) => (
 
 export const pageQuery = graphql`
   query BlogIndexQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___datePosted] }
+      limit: 1000
+    ) {
       edges {
         node {
           id
           frontmatter {
             path
             title
+            tags
             datePosted
             author
           }

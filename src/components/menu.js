@@ -16,7 +16,10 @@ const Menu = () => (
       }}
     >
       <li>
-        <Link to="/blog">Blog</Link>
+        <Link to="/trips">Trips</Link>
+      </li>
+      <li>
+        <Link to="/van">Van</Link>
       </li>
       <li>
         <Link to="/bikes">Bikes</Link>

@@ -20,7 +20,7 @@ export const query = graphql`
 `
 
 
-const Layout = ({ children }) => (
+const Layout = ({ children, hasHeader, hasMenu }) => (
   <StaticQuery
     query={query}
     render={data => (
@@ -35,8 +35,8 @@ const Layout = ({ children }) => (
             { name: 'keywords', content: 'gatsby, react, tutorial' },
           ]}
         />
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <Menu />
+        { hasHeader ?? <Header siteTitle={data.site.siteMetadata.title} /> }
+        { hasMenu ?? <Menu /> }
         <div
           style={{
             margin: '0 auto',

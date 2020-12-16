@@ -7,7 +7,7 @@ export default function Template({ data }) {
   const post = data.markdownRemark
   return (
     <Layout>
-      <Link to="/blog">Go Back</Link>
+      <Link to="/trips">Go Back</Link>
       <hr />
       <h1>{post.frontmatter.title}</h1>
       <h4>
@@ -46,6 +46,7 @@ export const postQuery = graphql`
         path
         title
         author
+        tags
         datePosted
         video
         map
