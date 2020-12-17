@@ -1,12 +1,9 @@
 import React from 'react'
-import { navigate } from 'gatsby';
 import Link from 'gatsby-link'
-import Layout from "../components/layout"
-
+import Layout from '../components/layout'
 
 const IndexPage = (props) => {
   console.log(props)
-  navigate('/trips'); // always redirect
   return (
     <Layout hasMenu={false}>
       <h1>Welcome to Adventure Heads</h1>
