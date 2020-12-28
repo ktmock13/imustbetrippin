@@ -3,7 +3,7 @@ path: "/X-USA-August-2019"
 datePosted: "2019-08-15"
 title: "X USA, August 2019"
 author: "Keith Mock"
-tags: ["Motocamping"]
+tags: ["Moto-Camping"]
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1yIgu0J-r_LV5kqvS2kP0wt-wc9R2Yhh8'
 video: 'https://www.youtube.com/embed/Agg8bTt-HyU'
 photos:

@@ -1,7 +1,7 @@
 ---
-path: "/Sedona-November-2019"
+path: "/Joshua-Tree-Sedona-November-2019"
 datePosted: "2019-11-15"
-title: "Sedona, November 2019"
+title: "Joshua Tree + Sedona, November 2019"
 author: "Keith Mock"
 tags: ["ADV", "Camping"]
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1bbIlubA83E8rFyiNlqIaOFTrzsvyOyl6'
@@ -27,7 +27,7 @@ photos:
 - https://adventure-head-photos.s3-us-west-2.amazonaws.com/Sedona-November-2019/IMG_3643.jpeg
 ---
 
-On this road trip, the two of us travel through LA, Phoenix, and eventually Sedona AZ. There we explored on our dual-sports and sampled the local offerings.
+On this road trip, the two of us travel through LA, Palm Springs, JT Natl Park, and eventually Sedona AZ. There we explored on our dual-sports and sampled the local offerings.
 
 - Suzuki DR200
 - Yamaha WR250R

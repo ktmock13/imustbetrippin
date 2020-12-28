@@ -2,7 +2,7 @@
 path: "/Big-Basin-February-2020"
 datePosted: "2020-12-25"
 title: "Big Basin, February 2020"
-tags: ["Motocamping"]
+tags: ["Moto-Camping"]
 author: "Keith Mock"
 map: 'https://www.google.com/maps/d/embed?mid=1yQzbR0_22UYSuk1yhl0BgjpiXvvPWDfL'
 photos:

@@ -2,7 +2,7 @@
 path: "/Big-Sur-October-2019"
 datePosted: "2019-10-15"
 title: "Big Sur, October 2019"
-tags: ["ADV", "Motocamping"]
+tags: ["ADV", "Moto-Camping"]
 author: "Keith Mock"
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1GEJFJYXOCA__p7VQErFqNdeF8ZUwuCaD'
 photos:
