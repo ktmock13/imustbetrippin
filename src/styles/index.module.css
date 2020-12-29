@@ -13,7 +13,7 @@
   left: 0;
   z-index: -1;
   clip-path: circle(0%);
-  transition: clip-path 4s ease;
+  transition: clip-path 8s ease;
   /* display: none; */
 }
 .VideoFinish {
@@ -54,12 +54,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: endless 3s linear infinite;
-}
-
-@keyframes shift { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 0%}
-    100%{background-position:0% 50%}
 }
 
 @keyframes endless { 
