@@ -6,7 +6,7 @@
 
 .Video {
   object-fit: cover;
-  width: 100vw;
+  min-width: 100vw;
   min-height: 100vh;
   position: fixed;
   top: 0;
@@ -71,11 +71,6 @@
   color: black;
   opacity: 1;
   border: 1px solid white;
-}
-.RainbowLink::after{
-  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIy NCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgIDxwYXRoIGQ9 Ik0wIDBoMjR2MjRoLTI0eiIgZmlsbD0ibm9uZSIvPgogICAgPHBhdGggZD0iTTEw LjA5IDE1LjU5bDEuNDEgMS40MSA1LTUtNS01LTEuNDEgMS40MSAyLjU4IDIuNTlo LTkuNjd2Mmg5LjY3bC0yLjU4IDIuNTl6bTguOTEtMTIuNTloLTE0Yy0xLjExIDAt MiAuOS0yIDJ2NGgydi00aDE0djE0aC0xNHYtNGgtMnY0YzAgMS4xLjg5IDIgMiAy aDE0YzEuMSAwIDItLjkgMi0ydi0xNGMwLTEuMS0uOS0yLTItMnoiLz4KPC9zdmc+ Cg==');
-  height: 10px;
-  width:10px;;
 }
 
 .ShowOnFinish {
