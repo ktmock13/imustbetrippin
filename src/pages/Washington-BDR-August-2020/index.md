@@ -25,4 +25,4 @@ photos:
 
 ---
 
-This was a 6 day, only dirt road trip across the state of Washninton, south to north. We packed everything out on the bikes, but stopped into some small towns along the way to pick up beer + meat before heading into the woods to make camp. The route took us through some of the most scenic places in the Cascades, and offered plenty of challenging sections. We had to turn back 50mi short of the Canadian border due to a forest fire blocking our way, but it was still an amazing trip!
+This was a 6 day, only dirt road trip across the state of Washington, south to north. We packed everything out on the bikes, but stopped into some small towns along the way to pick up beer + meat before heading into the woods to make camp. The route took us through some of the most scenic places in the Cascades, and offered plenty of challenging sections. We had to turn back 50mi short of the Canadian border due to a forest fire blocking our way, but it was still an amazing trip!
