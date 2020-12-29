@@ -6,7 +6,7 @@ import classes from '../styles/index.module.css';
 const IndexPage = () => {
   const [videoLoaded, setVideoLoaded] =  useState(false);
   const videoSource = 
-    navigator.userAgent.indexOf('Chrome')+1 ? 
+    false ? 
     "https://adventure-head-photos.s3-us-west-2.amazonaws.com/videos/splash.webm" : 
     "https://adventure-head-photos.s3-us-west-2.amazonaws.com/videos/splash.mp4"
   return (
