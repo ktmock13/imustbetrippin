@@ -12,26 +12,74 @@
   top: 0;
   left: 0;
   z-index: -1;
+  clip-path: circle(0%);
+  transition: clip-path 4s ease;
   /* display: none; */
+}
+.VideoFinish {
+  clip-path: circle(100%);
 }
 
 /* Add some content at the bottom of the video/page */
 .SubContent {
+  opacity:0;
+  transition: opacity 4s ease;
+
   text-align: center;
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-
   transform: translate(-50%,-50%);
 }
-
+.RainbowSubContent {
+  opacity: 1;
+  transition: opacity 1s ease;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 .Title {
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 
 }
+.RainbowTitle {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 50% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: endless 3s linear infinite;
+}
+
+@keyframes shift { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 0%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes endless { 
+  0%{background-position:0% 50%}
+  100%{background-position:100% 25%}
+}
+
 .Link{
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+.RainbowLink{
+  color: black;
+  opacity: 1;
+}
+
+.ShowOnFinish {
+ opacity: 1;
+}
+
+.HideOnFinish {
+  opacity: 0;
 }
