@@ -4,7 +4,7 @@ import classes from '../styles/index.module.css';
 // import shatsaVid from '../pages.shasta.MP4';
 
 const IndexPage = () => {
-  const videoSource = "https://www.w3schools.com/tags/movie.mp4"
+  const videoSource = "https://adventure-head-photos.s3-us-west-2.amazonaws.com/videos/splash.webm"
   return (
       <div className={classes.Container} >
           <video autoPlay="autoplay" loop="loop" muted className={classes.Video} >
