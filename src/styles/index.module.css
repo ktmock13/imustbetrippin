@@ -43,12 +43,14 @@
   transform: translate(-50%,-50%);
 }
 .Title {
+  margin-bottom: 24px;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 
 }
 .RainbowTitle {
-  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  margin-bottom: 24px;
+  background-image: repeating-linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red, violet);
   text-align: center;
   background-size: 50% 100%;
   -webkit-background-clip: text;
