@@ -11,6 +11,7 @@ const IndexPage = () => {
           <video 
             autoPlay="autoplay" 
             loop="loop" 
+            playsInline
             muted 
             className={`${classes.Video} ${videoLoaded ? classes.VideoFinish: ''}`} 
             onLoadStart={() => {}}
