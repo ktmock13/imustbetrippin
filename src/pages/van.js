@@ -66,7 +66,7 @@ const VanPage = () => (
       designs/dimensions, electrical requirements, tools required, budgets, and
       more in the 2-3 months preceeding. For simplicity, I won't go into my
       reasoning too much. However, you should know that every square inch of
-      this thing was very carefully considered before a spent a single dollar.
+      this thing was very carefully considered before I spent a single dollar.
     </p>
     <h3>Gutting, Sanding, and Cutting</h3>
     <p>
@@ -168,7 +168,7 @@ const VanPage = () => (
     <h3>Flooring, Framing, and Roof</h3>
     <p>
       Next was the floor. I decided to go with 1/2" pink XPS insulation. This
-      thickness would *almost* perfectly fill the corrugation gaps soon the
+      thickness would *almost* perfectly fill the corrugations on the
       floor and give a pretty good R-value to the floor's insulation. The process of
       cutting and silicone-ing perfectly sized strips for the corrugations was
       brutal, but I would do it all over again for a warm floor on your bare
@@ -274,7 +274,7 @@ const VanPage = () => (
       With the wires tucked into the wall panels, I started to cut and glue the
       patches of synthetic insulation onto the walls and into the wall voids. I
       used 3M 90 adhesive to help out on the trickier parts like the ceiling.
-      Once every gap was stuff with insulation I started to template out the
+      Once every gap was stuffed with insulation I started to template out the
       shapes on the walls using extra 1/2" foam boards.
     </p>
     <ImageGallery
