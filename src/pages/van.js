@@ -16,6 +16,30 @@ const VanPage = () => (
       small form factor… so I made it my mission. Let's start with what was
       actually accomplished.
     </p>
+    <ImageGallery
+      items={[
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/k.jpeg',
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/d.jpeg',
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/g.jpeg',
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/j.jpeg',
+
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/a.jpeg',
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/m.jpeg',
+
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/b.jpeg',
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/c.jpeg',
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/e.jpeg',
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/f.jpeg',
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/h.jpeg',
+        'https://adventure-head-photos.s3-us-west-2.amazonaws.com/van-build/I.jpeg',
+      ].map((photo) => ({
+        original: photo,
+        thumbnail: photo,
+      }))}
+      showPlayButton={false}
+      showBullets={true}
+      thumbnailPosition="left"
+    />
     <h2>Overview</h2>
     <ul>
       <li>2015 Ford Transit 250, 148" wheelbase, high-roof</li>
@@ -141,15 +165,15 @@ const VanPage = () => (
       showBullets={false}
       showThumbnails={false}
     />
-    <h3>Flooring, Framing, and roof</h3>
+    <h3>Flooring, Framing, and Roof</h3>
     <p>
       Next was the floor. I decided to go with 1/2" pink XPS insulation. This
       thickness would *almost* perfectly fill the corrugation gaps soon the
-      floor and pretty good R-value to the floor's insulation. The process of
+      floor and give a pretty good R-value to the floor's insulation. The process of
       cutting and silicone-ing perfectly sized strips for the corrugations was
       brutal, but I would do it all over again for a warm floor on your bare
       feet. I used another layer of 1/2" foam, then a 1/2" of double poly'd
-      plywood. The foam was easy to cut with a break away blade and made a great
+      plywood ontop of the strips. The foam was easy to cut with a break away blade and made a great
       template for the 1/2" plywood sheets.
     </p>
     <ImageGallery
