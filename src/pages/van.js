@@ -3,18 +3,16 @@ import Layout from '../components/layout'
 import ImageGallery from 'react-image-gallery'
 import Link from 'gatsby-link'
 
-
 const VanPage = () => (
   <Layout>
     <h1>The Van Build</h1>
     <p>
       This is the story of how I built a fully featured camper-van/dirt-bike
-      hauler in about a month all by myself. As you can imagine, this was a
-      month-long marathon of hyper-focused learning, iteration, long nights, and
-      overall fun. I had never seen a build which featured all of these
-      amenities plus the ability to haul two full-sized dirt-bikes in such a
-      small form factor… so I made it my mission. Let's start with what was
-      actually accomplished.
+      hauler in about a month myself. As you can imagine, this was a month-long
+      marathon of hyper-focused learning, iteration, long nights, and overall
+      fun. I had never seen a build which featured all of these amenities plus
+      the ability to haul two full-sized dirt-bikes in such a small form factor…
+      so I made it my mission. Let's start with what was actually accomplished.
     </p>
     <ImageGallery
       items={[
@@ -61,7 +59,7 @@ const VanPage = () => (
     <br />
     <h2>The Build Process</h2>
     <p>
-      This whole thing started with TONS of preparation, like months of it. I
+      This whole thing started with TONS of preparation, like, months of it. I
       made all of my decisions on base vehicle, materials, appliances,
       designs/dimensions, electrical requirements, tools required, budgets, and
       more in the 2-3 months preceeding. For simplicity, I won't go into my
@@ -168,13 +166,13 @@ const VanPage = () => (
     <h3>Flooring, Framing, and Roof</h3>
     <p>
       Next was the floor. I decided to go with 1/2" pink XPS insulation. This
-      thickness would *almost* perfectly fill the corrugations on the
-      floor and give a pretty good R-value to the floor's insulation. The process of
+      thickness would *almost* perfectly fill the corrugations on the floor and
+      give a pretty good R-value to the floor's insulation. The process of
       cutting and silicone-ing perfectly sized strips for the corrugations was
       brutal, but I would do it all over again for a warm floor on your bare
       feet. I used another layer of 1/2" foam, then a 1/2" of double poly'd
-      plywood ontop of the strips. The foam was easy to cut with a break away blade and made a great
-      template for the 1/2" plywood sheets.
+      plywood ontop of the strips. The foam was easy to cut with a break away
+      blade and made a great template for the 1/2" plywood sheets.
     </p>
     <ImageGallery
       items={[
@@ -567,12 +565,12 @@ const VanPage = () => (
       thumbnailPosition="left"
     />
     <p>
-      A few trips to the mountains made us realize
-      that we really needed a cabin heater. I don't have space for propane, so I
-      decided to go with a gasoline-powered heater which uses an auxiliary port
-      from my vehicle's main tank. This was a tricky install since I had to fit
-      it under the passenger seat and have clearance for the intake/exhaust
-      pipes which would be under the van.
+      A few trips to the mountains made us realize that we really needed a cabin
+      heater. I don't have space for propane, so I decided to go with a
+      gasoline-powered heater which uses an auxiliary port from my vehicle's
+      main tank. This was a tricky install since I had to fit it under the
+      passenger seat and have clearance for the intake/exhaust pipes which would
+      be under the van.
     </p>
     <ImageGallery
       items={[
@@ -586,8 +584,12 @@ const VanPage = () => (
       showBullets={true}
       thumbnailPosition="left"
     />
-        <p>
-        The kit I used came with a flat mounting plate, and I formed a seal on either side of it with high heat silicone. For safety we also have a sensor for CO in the cabin. Once I installed the heater itself I set it for high altitude mode using a special controller and this thing works like a charm! Just set a temp on the thermostat and forget it!
+    <p>
+      The kit I used came with a flat mounting plate, and I formed a seal on
+      either side of it with high heat silicone. For safety we also have a
+      sensor for CO in the cabin. Once I installed the heater itself I set it
+      for high altitude mode using a special controller and this thing works
+      like a charm! Just set a temp on the thermostat and forget it!
     </p>
     <ImageGallery
       items={[
@@ -602,8 +604,15 @@ const VanPage = () => (
       thumbnailPosition="left"
     />
     <h3> Electronics</h3>
-            <p>
-            Since space is precious in this build, I decided to go with an all-in-one solution for the power system. It is a GoalZero Yeti 3000x and it slides nicely into the lower cabinet with a cutout for accessing the ports. There is a small 12v fusebox behind the battery which is the hub for all of the electronics (lights, fridge, heater, fan). I tried to keep everything in the van 12v so that I don't need to run the inverter for the day-to-day. For most A/C things I use a low profile extension cord which runs from here to the garage.
+    <p>
+      Since space is precious in this build, I decided to go with an all-in-one
+      solution for the power system. It is a GoalZero Yeti 3000x and it slides
+      nicely into the lower cabinet with a cutout for accessing the ports. There
+      is a small 12v fusebox behind the battery which is the hub for all of the
+      electronics (lights, fridge, heater, fan). I tried to keep everything in
+      the van 12v so that I don't need to run the inverter for the day-to-day.
+      For most A/C things I use a low profile extension cord which runs from
+      here to the garage.
     </p>
     <ImageGallery
       items={[
@@ -617,8 +626,16 @@ const VanPage = () => (
       showBullets={true}
       thumbnailPosition="left"
     />
-                <p>
-                At this point we had taken the van on some trips (partially finished) and we loved that we could stay powered off grid. Since this was such a high value-add I decided to add another 160W solar panel (of nearly identical voltage). This would bring the total solar input up to 360W which will supply well above what we use every day. In addition, I wired 2 GoalZero 10A car chargers in parallel so we get about 240W when the vehicle is on in addition to the solar. For scale, we only use about 15% of the battery per day max. So to replenish it daily takes about 75min of sun, or 45min of sunny driving.
+    <p>
+      At this point we had taken the van on some trips (partially finished) and
+      we loved that we could stay powered off grid. Since this was such a high
+      value-add I decided to add another 160W solar panel (of nearly identical
+      voltage). This would bring the total solar input up to 360W which will
+      supply well above what we use every day. In addition, I wired 2 GoalZero
+      10A car chargers in parallel so we get about 240W when the vehicle is on
+      in addition to the solar. For scale, we only use about 15% of the battery
+      per day max. So to replenish it daily takes about 75min of sun, or 45min
+      of sunny driving.
     </p>
     <ImageGallery
       items={[
@@ -632,8 +649,12 @@ const VanPage = () => (
       showBullets={true}
       thumbnailPosition="left"
     />
-                    <p>
-                    In addition to the extra power we really valued a good cell-signal. I added a WeBoost 12v cell receiver to boost our chances of a good signal. This has a magnetic puck that sticks to the roof and a repeater puck which stays inside. When we have bad signal this can get us enough bars to watch Netflix.
+    <p>
+      In addition to the extra power we really valued a good cell-signal. I
+      added a WeBoost 12v cell receiver to boost our chances of a good signal.
+      This has a magnetic puck that sticks to the roof and a repeater puck which
+      stays inside. When we have bad signal this can get us enough bars to watch
+      Netflix.
     </p>
     <ImageGallery
       items={[
@@ -646,8 +667,10 @@ const VanPage = () => (
       showBullets={false}
       showThumbnails={false}
     />
-                        <p>
-                        Everything else electronics-wise is somewhat removal depending on the type of trip. I like to add the small monitor when I want extra productivity working, or for watching movies/ps4 for example.
+    <p>
+      Everything else electronics-wise is somewhat removal depending on the type
+      of trip. I like to add the small monitor when I want extra productivity
+      working, or for watching movies/ps4 for example.
     </p>
     <ImageGallery
       items={[
@@ -661,8 +684,13 @@ const VanPage = () => (
       showBullets={true}
       thumbnailPosition="left"
     />
-    <p>Check out the <Link className='link' to='/trips'>trips section</Link> for more action shots of the van.
-</p>
+    <p>
+      Check out the{' '}
+      <Link className="link" to="/trips">
+        trips section
+      </Link>{' '}
+      for more action shots of the van.
+    </p>
   </Layout>
 )
 

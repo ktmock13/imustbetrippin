@@ -11,21 +11,24 @@ export default function Template({ data }) {
       <hr />
       <h1>{post.frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      <div
-        dangerouslySetInnerHTML={{
-          __html: `<iframe src="${post.frontmatter.map}" width="640" height="480"></iframe>`,
-        }}
-      />
-      {post.frontmatter.video && 
+      {post.frontmatter.map && (
+        <div
+          dangerouslySetInnerHTML={{
+            __html: `<iframe src="${post.frontmatter.map}" width="640" height="480"></iframe>`,
+          }}
+        />
+      )}
+
+      {post.frontmatter.video && (
         <div
           dangerouslySetInnerHTML={{
             __html: `<iframe width="560" height="315" src="${post.frontmatter.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
           }}
         />
-      }
+      )}
       <div className="image-gallery">
         <ImageGallery
-          items={post.frontmatter.photos.map(photo => ({
+          items={post.frontmatter.photos.map((photo) => ({
             original: photo,
             thumbnail: photo,
           }))}
@@ -33,7 +36,6 @@ export default function Template({ data }) {
           showBullets={true}
         />
       </div>
-      
     </Layout>
   )
 }
