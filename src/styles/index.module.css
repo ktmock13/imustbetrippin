@@ -1,7 +1,21 @@
+@font-face {
+  font-family: 'StateFaceRegular';
+  src: url('../fonts/stateface-regular-webfont.eot');
+  src: url('../fonts/stateface-regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/stateface-regular-webfont.woff') format('woff'),
+    url('../fonts/stateface-regular-webfont.ttf') format('truetype'),
+    url('../fonts/stateface-regular-webfont.svg#StateFaceRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.stateface {
+  font-family: 'StateFaceRegular';
+}
 .Container {
   position: relative;
   height: 100vh;
-  width: 100%
+  width: 100%;
 }
 
 .Video {
@@ -22,7 +36,7 @@
 
 /* Add some content at the bottom of the video/page */
 .SubContent {
-  opacity:0;
+  opacity: 0;
   transition: opacity 2s ease;
 
   text-align: center;
@@ -30,7 +44,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 .RainbowSubContent {
   opacity: 1;
@@ -40,17 +54,26 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 .Title {
   margin-bottom: 24px;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-
 }
 .RainbowTitle {
   margin-bottom: 24px;
-  background-image: repeating-linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  background-image: repeating-linear-gradient(
+    90deg,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red,
+    violet
+  );
   text-align: center;
   background-size: 50% 100%;
   -webkit-background-clip: text;
@@ -58,22 +81,26 @@
   animation: endless 3s linear infinite;
 }
 
-@keyframes endless { 
-  0%{background-position:0% 50%}
-  100%{background-position:100% 25%}
+@keyframes endless {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 25%;
+  }
 }
 
-.Link{
+.Link {
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
-.RainbowLink{
+.RainbowLink {
   color: black;
   opacity: 1;
 }
 
 .ShowOnFinish {
- opacity: 1;
+  opacity: 1;
 }
 
 .HideOnFinish {

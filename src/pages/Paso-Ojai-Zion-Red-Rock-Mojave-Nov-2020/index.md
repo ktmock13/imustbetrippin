@@ -4,6 +4,8 @@ datePosted: '2020-12-01'
 title: 'CA North Coast, December 2020'
 tags: ['Van-Camping']
 author: 'Keith Mock'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/CA-North-Coast-Dec-2020/22D92A56-2EC4-4E23-8BD0-AD4D79DAC7A9.jpg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/CA-North-Coast-Dec-2020/IMG_0080.JPG

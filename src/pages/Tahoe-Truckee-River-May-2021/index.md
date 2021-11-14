@@ -4,6 +4,8 @@ datePosted: '2021-05-31'
 title: 'Tahoe: Truckee River, May 2021'
 tags: ['Van-Camping', 'Mountainbiking']
 author: 'Keith Mock'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Tahoe-Truckee-River-May-2021/IMG_1794.jpeg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Tahoe-Truckee-River-May-2021/IMG_1801.jpeg

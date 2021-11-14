@@ -5,6 +5,8 @@ title: 'Tahoe: 4th Weekend, July 2021'
 tags: ['Van-Camping', 'Dirtbiking']
 author: 'Keith Mock'
 video: 'https://www.youtube.com/embed/hXrGUd_ShpE'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Tahoe-4th-Weekend-July-2021/20210704_175641_Original.jpg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Tahoe-4th-Weekend-July-2021/E7EA2F63-D12E-4EE5-B584-816F9E1F7D90.jpg

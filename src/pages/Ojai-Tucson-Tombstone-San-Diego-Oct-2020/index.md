@@ -4,6 +4,9 @@ datePosted: '2020-10-20'
 title: 'Ojai CA, Tucson AZ, Tombstone AZ, San Diego CA, October 2020'
 tags: ['Van-Camping', 'Dirtbiking']
 author: 'Keith Mock'
+states:
+  - 'CA'
+  - 'AZ'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Ojai-Tucson-Tombstone-SD-Oct-2020/IMG_6293.JPG
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Ojai-Tucson-Tombstone-SD-Oct-2020/IMG_6283.JPG

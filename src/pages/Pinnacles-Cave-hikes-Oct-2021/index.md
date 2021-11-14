@@ -4,6 +4,8 @@ datePosted: '2021-10-30'
 title: 'Pinnacles Natl Park: Cave hikes, October 2021'
 tags: ['Van-Camping', 'Hiking']
 author: 'Keith Mock'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Pinnacles-Cave-hikes-Oct-2021/IMG_3268.jpeg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Pinnacles-Cave-hikes-Oct-2021/IMG_3267.jpeg

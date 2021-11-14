@@ -1,10 +1,13 @@
 ---
 path: '/Dez-Hot-Springs-Quartzite-Prescott-Sedona-Cottonwood-Apr-2021'
 datePosted: '2021-04-15'
-title: 'Desert Hot Springs, Prescott/Sedona/Cottonwood AZ, April 2021'
+title: 'Sedona + Cottonwood AZ, April 2021'
 tags: ['Dirtbiking', 'Van-Camping']
 author: 'Keith Mock'
 video: 'https://www.youtube.com/embed/CIGbNKV9XBg'
+states:
+  - 'CA'
+  - 'AZ'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Dez-Hot-Springs-Quartzite-Prescott-Sedona-Cottonwood-Apr-2021/IMG_1163.jpeg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Dez-Hot-Springs-Quartzite-Prescott-Sedona-Cottonwood-Apr-2021/IMG_1179.jpeg

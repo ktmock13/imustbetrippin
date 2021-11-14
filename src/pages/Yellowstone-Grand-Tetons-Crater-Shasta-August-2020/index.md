@@ -6,6 +6,13 @@ tags: ['Hiking', 'Mountainbiking', 'Van-Camping']
 author: 'Keith Mock'
 video: 'https://www.youtube.com/embed/PVVws01eAek'
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1pFvFh-kjtEuVmhxyAnpWyoXFsJg24Jt7'
+states:
+  - 'CA'
+  - 'OR'
+  - 'ID'
+  - 'WY'
+  - 'UT'
+  - 'NV'
 photos:
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/X-Northwest-August-2020/IMG_4197.jpeg
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/X-Northwest-August-2020/D9EB9C51-4A7E-478E-A70E-9C8C1FF8456A.jpeg

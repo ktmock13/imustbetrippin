@@ -5,6 +5,8 @@ title: 'Lassen Ntl Park + Shasta OHV, June 2020'
 tags: ['Dirtbiking', 'Van-Camping']
 author: 'Keith Mock'
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1f8PRRjkxMS4UUMMwQg5Gx7fI20YXWxPh'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/Lassen-Shasta-June-2020/IMG_2449.jpeg
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/Lassen-Shasta-June-2020/IMG_2492.jpeg

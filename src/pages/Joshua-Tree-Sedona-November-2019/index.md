@@ -6,6 +6,9 @@ author: 'Keith Mock'
 tags: ['Dirtbiking', 'Camping']
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1bbIlubA83E8rFyiNlqIaOFTrzsvyOyl6'
 video: 'https://www.youtube.com/embed/QZHYCpgvlTs'
+states:
+  - 'CA'
+  - 'AZ'
 photos:
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/Sedona-November-2019/IMG_0820.jpeg
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/Sedona-November-2019/IMG_0840.jpeg

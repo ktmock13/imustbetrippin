@@ -6,6 +6,8 @@ tags: ['Dirtbiking', 'Camping']
 author: 'Keith Mock'
 map: 'https://www.google.com/maps/d/u/0/embed?mid=154tj6Fu8-VDFu9UBdm-dsaSRh1ykAtPB'
 video: 'https://www.youtube.com/embed/r2Qt6MgOj5s'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/Death-Valley-March-2020/FCC086FB-E06A-4FDC-9050-EB5563B8A654.jpeg
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/Death-Valley-March-2020/IMG_1658.jpeg
