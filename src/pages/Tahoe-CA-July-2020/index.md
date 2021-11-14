@@ -4,6 +4,8 @@ datePosted: '2020-07-15'
 title: 'Tahoe CA, July 2020'
 tags: ['Hiking', 'Van-Camping']
 author: 'Keith Mock'
+states:
+  - 'CA'
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1Q8vSe5SnvS1_s91Yr2YYspvbEAzvfrfW'
 photos:
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/truckee-south-lake-tahoe-july-2020/IMG_3282.jpeg

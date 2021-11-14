@@ -4,6 +4,8 @@ datePosted: '2021-05-20'
 title: 'Yosemite: Family visit, May 2021'
 tags: ['Hiking']
 author: 'Keith Mock'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Yosemite-family-visit-May-2021/IMG_1742.jpeg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Yosemite-family-visit-May-2021/IMG_3456.JPG

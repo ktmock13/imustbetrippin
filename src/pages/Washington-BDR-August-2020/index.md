@@ -6,6 +6,10 @@ tags: ['ADV', 'Motocamping']
 author: 'Keith Mock'
 video: 'https://www.youtube.com/embed/aoLA0nWyDSI'
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1jGouBTw04ORdGl5lDa138nR8eCR6bfm_'
+states:
+  - 'CA'
+  - 'OR'
+  - 'WA'
 photos:
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/Washington-BDR-August-2020/IMG_5800.JPG
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/Washington-BDR-August-2020/61976072800__EC066702-F4DD-4B39-8C06-BB73AD3529F0.jpeg

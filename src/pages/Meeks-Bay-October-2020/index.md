@@ -4,6 +4,8 @@ datePosted: '2020-10-15'
 title: 'Meeks Bay, October 2020'
 tags: ['Van-Camping']
 author: 'Keith Mock'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/meeks-bay-october-2020/IMG_6160.JPG
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/meeks-bay-october-2020/IMG_1056.jpeg

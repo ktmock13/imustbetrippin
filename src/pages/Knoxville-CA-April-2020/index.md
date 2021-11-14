@@ -6,6 +6,8 @@ tags: ['Dirtbiking', 'Van-Camping']
 author: 'Keith Mock'
 map: 'https://www.google.com/maps/d/u/0/embed?mid=16nByv5ZSrSNp4piNdPOplyvKqZ1U2UxQ'
 video: 'https://www.youtube.com/embed/PDnNsQORCtE'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/Knoxville-CA-April-2020/IMG_4564.jpeg
   - https://adventure-head-photos.s3-us-west-2.amazonaws.com/Knoxville-CA-April-2020/IMG_4543.jpeg

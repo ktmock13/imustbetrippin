@@ -4,6 +4,8 @@ datePosted: '2021-05-18'
 title: 'Tahoe, Meeks Bay, May 2021'
 tags: ['Van-Camping', 'Trucking', 'Bush Planes']
 author: 'Keith Mock'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Tahoe-Meeks-Bay-May-2021/IMG_1668.jpeg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Tahoe-Meeks-Bay-May-2021/IMG_1671.jpeg

@@ -5,6 +5,8 @@ title: 'Death Valley, November 2021'
 tags: ['Dirtbiking', 'Van-Camping']
 author: 'Keith Mock'
 video: 'https://www.youtube.com/embed/Arsdscm9L0M'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Death-Valley-Nov-2021/IMG_3324.jpeg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Death-Valley-Nov-2021/IMG_3327.jpeg

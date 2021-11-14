@@ -4,6 +4,8 @@ datePosted: '2021-01-15'
 title: 'Jawbone Canyon, January 2021'
 tags: ['Dirtbiking', 'Van-Camping', 'Quads']
 author: 'Keith Mock'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Jawbone-Canyon-Jan-2021/IMG_0587.jpeg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Jawbone-Canyon-Jan-2021/IMG_0640.JPG

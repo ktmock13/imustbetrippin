@@ -4,6 +4,10 @@ datePosted: '2021-06-01'
 title: 'PNW Roadtrip: Lost Coast, Olympic NP, Co River Gorge, June 2021'
 tags: ['Van-Camping', 'Hiking']
 author: 'Keith Mock'
+states:
+  - 'CA'
+  - 'OR'
+  - 'WA'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/PNW-Roadtrip-CA-lost-Coast-WA-Olympic-Columbia-River-Gorge/IMG_1930.jpeg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/PNW-Roadtrip-CA-lost-Coast-WA-Olympic-Columbia-River-Gorge/IMG_1953.jpeg

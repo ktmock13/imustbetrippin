@@ -4,6 +4,9 @@ datePosted: '2021-08-10'
 title: 'Tahoe: NV Beach and MTB trails, August 2021'
 tags: ['Van-Camping', 'Mountainbiking']
 author: 'Keith Mock'
+states:
+  - 'CA'
+  - 'NV'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Tahoe-NV-Beach-MTB-trails/IMG_2614.jpeg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Tahoe-NV-Beach-MTB-trails/IMG_2619.jpeg

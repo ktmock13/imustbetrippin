@@ -4,6 +4,8 @@ datePosted: '2020-08-17'
 title: 'Tahoe CA, August 2020'
 tags: ['Dirtbiking', 'Van-Camping']
 author: 'Keith Mock'
+states:
+  - 'CA'
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1g84XI_WxDLdX1WJSwVBJIUtYOof_JNxA'
 video: 'https://www.youtube.com/embed/hDyUzmqUcs4'
 photos:

@@ -5,6 +5,9 @@ title: 'Jawbone Canyon 2: Dirtbike Edition, January 2021'
 tags: ['Van-Camping', 'Dirtbiking']
 author: 'Keith Mock'
 video: 'https://www.youtube.com/embed/dP6CjBQTmvs'
+map: 'https://www.google.com/maps/d/embed?mid=1-R_ZMFgyYZ4J3gWDIsKVkAS47OrpyadM'
+states:
+  - 'CA'
 photos:
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Jawbone-Canyon-2-Dirtbike-Edition-Jan-2021/IMG_1147.jpeg
   - https://adventure-head-photos.s3.us-west-2.amazonaws.com/Jawbone-Canyon-2-Dirtbike-Edition-Jan-2021/IMG_1169.jpeg
