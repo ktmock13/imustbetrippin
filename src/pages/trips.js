@@ -1,30 +1,40 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import TagList from '../components/tag-list'
+import TagFilter from '../components/TagFilter'
 import Layout from '../components/layout'
 import classes from '../styles/index.module.css'
 import statemap from '../state_map.json'
 
-const BlogPage = ({ data }) => (
-  <Layout>
-    {data.allMarkdownRemark.edges.map((post) => (
-      <Link to={post.node.frontmatter.path}>
-        <div key={post.node.id}>
-          <h3>{post.node.frontmatter.title}</h3>
-          <h3 className={classes.stateface}>
-            {post.node.frontmatter.states &&
-              post.node.frontmatter.states.map((state) => (
-                <span>{statemap[state]}</span>
-              ))}
-          </h3>
+const BlogPage = ({ data }) => {
+  const onlyUnique = (value, index, self) => {
+    return self.indexOf(value) === index
+  }
 
-          <TagList tags={post.node.frontmatter.tags} />
-          <hr />
-        </div>
-      </Link>
-    ))}
-  </Layout>
-)
+  const posts = data.allMarkdownRemark.edges
+
+  return (
+    <Layout>
+      <TagFilter posts={posts} />
+      {posts.map((post) => (
+        <Link to={post.node.frontmatter.path}>
+          <div key={post.node.id}>
+            <h3>{post.node.frontmatter.title}</h3>
+            <h3 className={classes.stateface}>
+              {post.node.frontmatter.states &&
+                post.node.frontmatter.states.map((state) => (
+                  <span>{statemap[state]}</span>
+                ))}
+            </h3>
+
+            <TagList tags={post.node.frontmatter.tags} />
+            <hr />
+          </div>
+        </Link>
+      ))}
+    </Layout>
+  )
+}
 
 export const pageQuery = graphql`
   query BlogIndexQuery {
