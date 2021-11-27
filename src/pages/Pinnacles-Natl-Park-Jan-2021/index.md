@@ -4,6 +4,7 @@ datePosted: '2021-01-01'
 title: 'Pinnacles Natl Park, January 2021'
 tags: ['Van-Camping', 'Hiking']
 author: 'Keith Mock'
+map: 'https://www.google.com/maps/d/embed?mid=1qdPMuwftUjpDKUM0vedMPc3nEk1Pbw2n'
 states:
   - 'CA'
 photos:
