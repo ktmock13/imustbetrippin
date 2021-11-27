@@ -4,6 +4,7 @@ datePosted: '2020-10-20'
 title: 'Ojai CA, Tucson AZ, Tombstone AZ, San Diego CA, October 2020'
 tags: ['Van-Camping', 'Dirtbiking']
 author: 'Keith Mock'
+map: 'https://www.google.com/maps/d/embed?mid=1H0rgg5ALnyi6tmUySgxzGrS4WVCiWZ3K'
 states:
   - 'CA'
   - 'AZ'
