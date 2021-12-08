@@ -12,11 +12,11 @@
 .stateface {
   font-family: 'StateFaceRegular';
 }
-/* .Container {
+.Container {
   position: relative;
   height: 100vh;
   width: 100%;
-} */
+}
 
 .Video {
   object-fit: cover;

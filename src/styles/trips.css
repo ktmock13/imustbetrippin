@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'StateFaceRegular';
+  src: url('../fonts/stateface-regular-webfont.eot');
+  src: url('../fonts/stateface-regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/stateface-regular-webfont.woff') format('woff'),
+    url('../fonts/stateface-regular-webfont.ttf') format('truetype'),
+    url('../fonts/stateface-regular-webfont.svg#StateFaceRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.stateface {
+  font-family: 'StateFaceRegular';
+}
+.maplegend {
+  font-weight: bold;
+  padding: 0 10px 30px 10px;
+  text-align: center;
+}
+.maplegend > span {
+  padding-right: 10px;
+}
+.maplegend > span > span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.maplegendvan {
+  height: 18px;
+  width: 18px;
+  background-color: #0288d1;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.maplegendmoto {
+  height: 18px;
+  width: 18px;
+  background-color: #e65100;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.fullMap > iframe {
+  margin-bottom: 0;
+}
