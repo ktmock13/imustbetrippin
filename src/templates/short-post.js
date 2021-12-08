@@ -3,40 +3,52 @@ import Link from 'gatsby-link'
 import ImageGallery from 'react-image-gallery'
 import Layout from '../components/layout'
 import statemap from '../state_map.json'
-import classes from '../styles/index.module.css'
+import stateFaceClasses from '../styles/index.module.css'
+import classes from '../styles/short-post.module.css'
 
 export default function Template({ data }) {
-  const post = data.markdownRemark
+  const { html } = data.markdownRemark
+  const { title, states, video, photos, map } = data.markdownRemark.frontmatter
+
   return (
-    <Layout>
+    <Layout className="container">
       <Link to="/trips">Go Back</Link>
       <hr />
-      <h1>{post.frontmatter.title}</h1>
-      {/* <h3 className={classes.stateface}>
-        {post.node.frontmatter.states &&
-          post.node.frontmatter.states.map((state) => (
-            <span>{statemap[state]}</span>
-          ))}
-      </h3> */}
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      {post.frontmatter.map && (
+      <h1>{title}</h1>
+      <h1 className={stateFaceClasses.stateface}>
+        {states && states.map((state) => <span>{statemap[state]}</span>)}
+      </h1>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: html,
+        }}
+      />
+      {map && (
         <div
+          className={`${classes.media} ${classes.map} ${
+            !video && classes.rowmedia
+          }`}
           dangerouslySetInnerHTML={{
-            __html: `<iframe src="${post.frontmatter.map}" width="640" height="480"></iframe>`,
+            __html: `<iframe src="${map}" width="${
+              video ? 520 : 1080
+            }" height="375"></iframe>`,
           }}
         />
       )}
 
-      {post.frontmatter.video && (
+      {video && (
         <div
+          className={`${classes.media} ${!map && classes.rowmedia}`}
           dangerouslySetInnerHTML={{
-            __html: `<iframe width="560" height="315" src="${post.frontmatter.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+            __html: `<iframe width="${
+              video ? 520 : 1080
+            }" height="375" src="${video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
           }}
         />
       )}
       <div className="image-gallery">
         <ImageGallery
-          items={post.frontmatter.photos.map((photo) => ({
+          items={photos.map((photo) => ({
             original: photo,
             thumbnail: photo,
           }))}

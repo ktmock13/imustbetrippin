@@ -15,6 +15,12 @@ const BlogPage = ({ data }) => {
 
   return (
     <Layout>
+      <div
+        className={`{classes.map}`}
+        dangerouslySetInnerHTML={{
+          __html: `<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1UfcHSqhZQY-YKoYASi-E1tr_9fu_fLfQ&ehbc=2E312F" width="1080px" height="375"></iframe>`,
+        }}
+      />
       <TagFilter posts={posts} />
       {posts.map((post) => (
         <Link to={post.node.frontmatter.path}>
