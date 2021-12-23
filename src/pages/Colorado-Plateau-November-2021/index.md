@@ -10,6 +10,7 @@ states:
   - 'CA'
   - 'NV'
   - 'UT'
+  - 'CO'
   - 'NM'
   - 'AZ'
 photos:
