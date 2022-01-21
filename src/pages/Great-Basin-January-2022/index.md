@@ -2,7 +2,7 @@
 path: '/Great-Basin-January-2022'
 datePosted: '2022-1-15'
 title: 'Great Basin, January 2022'
-tags: ['Hiking', 'Van-Camping', 'Skiing']
+tags: ['Hiking', 'Van-Camping', 'Ski']
 author: 'Keith Mock'
 map: 'https://www.google.com/maps/d/u/0/embed?mid=1I5lK6PK-n8n1IAhvp-FxtpAmCcxl2E_8&ehbc=2E312F'
 states:
