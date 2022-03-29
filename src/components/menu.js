@@ -19,10 +19,13 @@ const Menu = () => (
         <Link to="/trips">Trips</Link>
       </li>
       <li>
-        <Link to="/van">Van</Link>
+        <Link to="/van">Van Build</Link>
       </li>
       <li>
-        <Link to="/bikes">Bikes</Link>
+        <Link to="/van-updates">Van Updates</Link>
+      </li>
+      <li>
+        <Link to="/bike-restoration">Vintage Moto Restoration</Link>
       </li>
     </ul>
   </div>
