@@ -5,7 +5,7 @@ title: 'Keyesville CA, April 2022'
 tags: ['Dirtbiking', 'Van-Camping']
 author: 'Keith Mock'
 video: 'https://www.youtube.com/embed/XyufK9Ab-kY'
-map: 'https://www.google.com/maps/d/embed?mid=1jGZ2a-q13mIVDsFHv3oQtAxSg4_FNW_l'
+map: 'https://www.google.com/maps/d/u/0/embed?mid=19oXxHrPSAxPr_si1ueOJ0VngdpLyCn91&ehbc=2E312F'
 states:
   - 'CA'
 photos:
