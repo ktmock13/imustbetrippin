@@ -7,12 +7,11 @@ const VanPage = () => (
   <Layout>
     <h1>The Van Build</h1>
     <p>
-      This is the story of how I built a fully featured camper-van/dirt-bike
-      hauler in about a month myself. As you can imagine, this was a month-long
-      marathon of hyper-focused learning, iteration, long nights, and overall
-      fun. I had never seen a build which featured all of these amenities plus
-      the ability to haul two full-sized dirt-bikes in such a small form factor…
-      so I made it my mission. Let's start with what was actually accomplished.
+      This is the story of how I built a camper-van/dirt-bike hauler in about a
+      month. I did this solo, so this was a month-long marathon of hyper-focused
+      learning, iteration, long nights, and overall fun. I wanted a pretty
+      specific set of cargo dimensions and features so I made it my mission to
+      DIY. Let's start with what was actually accomplished.
     </p>
     <ImageGallery
       items={[

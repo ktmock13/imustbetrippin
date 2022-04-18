@@ -22,4 +22,4 @@ New bikes! I test out the KTM 500 while my friend tests the Husky 500. Day 1 we 
 - Husqvarna FE 501s
 - Husqvarna TE 450
 - KTM EXC 350
-- KTM EXC 350
+- Husqvarna FE 350s

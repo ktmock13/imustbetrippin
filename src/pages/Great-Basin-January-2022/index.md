@@ -1,6 +1,6 @@
 ---
 path: '/Great-Basin-January-2022'
-datePosted: '2022-1-15'
+datePosted: '2022-01-15'
 title: 'Great Basin, January 2022'
 tags: ['Hiking', 'Van-Camping', 'Ski']
 author: 'Keith Mock'
