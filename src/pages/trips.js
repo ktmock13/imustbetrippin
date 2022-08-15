@@ -18,7 +18,7 @@ const BlogPage = ({ data }) => {
       <div
         className="fullMap"
         dangerouslySetInnerHTML={{
-          __html: `<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1UfcHSqhZQY-YKoYASi-E1tr_9fu_fLfQ&ehbc=2E312F" width="1080px" height="375"></iframe>`,
+          __html: `<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1sJ7BHLsT0CVhAbbgRthGYpgfXzmzl0Q&ehbc=2E312F" width="1080px" height="375"></iframe>`,
         }}
       />
       <div className="maplegend">
